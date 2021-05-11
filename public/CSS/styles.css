@@ -28,11 +28,11 @@ header.main-header{
     z-index: 10;
 }
 
-div.top-header{
+.top-heade{
     display: flex;
-    flex-wrap: wrap;
-    padding: 5%;
 }
+
+
 header div.top-header p{
     width: 100%;
     text-align: center;
@@ -44,35 +44,34 @@ header{
     background-color: #EAC926;
    
 }
-header div.logo,
+
 header .form{
     width: 50%;
-    justify-content: center;
+    justify-content: space-between;
 }
 header div.logo{
     padding: 10px;
 }
 
 header .form {
-    display: flex;
-    
+
     padding: 2px;
     font-size: 10px;
     margin: 0  auto;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 50%;
 }
 
 div.buscar{
-    margin-left: 5px;
+    margin-top: 30px;
+    
+
 }
 
 
 
 
-header .copy-header{
-    text-align: center;
-}
+ 
 
 
 header .form .input{
@@ -81,7 +80,9 @@ header .form .input{
     outline: none;
     color: #666;
     padding: 10px;
-    width: 100%
+    width: 80%;
+    margin-top: 20px;
+    height: 50%
   
     ;
 }
@@ -101,9 +102,9 @@ header .form .submit{
 }
 
 
-div.main-header-top-ba ,.logo{
+.logo{
     margin: 10PX;
-    width: 200px;
+    width: 12%;
     animation: aumentar 1000ms linear 4 alternate;
     
 }
@@ -155,7 +156,7 @@ div.hamburger-buttom i{
 
 .main-navbar a{
     text-decoration: none;
-    color: #222222  ;
+    color: #05020f  ;
     display: inline-block;
     padding: 5px 0;
     font-size: 17px;
@@ -266,6 +267,7 @@ div.productos2{
 
 
 .piePagina{
+    
     padding: 20px 15px;
  
 }
@@ -296,12 +298,42 @@ div.productos2{
 
 
 
-@media (min-width: 361px){
+@media (min-width: 360px){
 
-    /*main section article .descripciones{
-        display: block;
-    }*/
 
+
+.contento1{
+
+    padding-top: 240px;
+}
+
+div .buscar{
+
+    margin-top: 30px;
+}
+
+.logo{
+    width: 30%;
+
+}
+
+.copy-header{
+
+    width: 100%;
+    text-align: center;
+    
+
+}
+    
+.top-heade{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ 
+.form{
+    display: none;
+}
 
     main section article:hover .descripciones{
         display: block;
@@ -343,7 +375,6 @@ div.productos2{
    
     header .form {
         display: flex;
-        
         padding: 2px;
         font-size: 11px;
         margin: 0  auto;
@@ -353,17 +384,7 @@ div.productos2{
     header .copy-header p{
         font-size: 12px;
     }
-    .create-form{
-        padding: 20px 15px 0px 15px;
-        margin: 0px;
-        margin-top: 300px;
-    }
-
-    .create-form2{
-        padding: 20px 15px 0px 15px;
-        margin: 0px;
-        margin-top: 80px;
-    }
+    
     
     control-formulario{
         margin-bottom: 15px;
@@ -398,10 +419,42 @@ div.productos2{
         margin: 5px;
     }
 
+    footer p {
+
+        display: flex;
+        justify-content: center;
+    }
+
 
 }
 
 @media (min-width: 769px){
+
+
+    .contento1{
+
+        padding-top: 15%;
+    }
+
+
+    div .buscar{
+
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+
+
+
+    .copy-header{
+
+        width: 100%;
+        text-align: center;
+    }
+    .logo{
+
+    width: 30%;
+    }
 
     main section div.products article{
         width: 22%;
@@ -480,14 +533,7 @@ div.productos2{
         
     }
 
-    header div h2.copy-header{
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        margin-right: 15px;
-        margin-top: 1px;
-        padding: 5px;
-    }
+    
 
     header .copy-header p{
         font-size: 15px;
@@ -513,8 +559,31 @@ div.productos2{
 
 
 @media (min-width: 1000px){
+    
 
     
+    .contento1{
+
+        padding-top: 5%;
+    }
+    
+    
+    div .buscar{
+
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+
+
+    .copy-header{
+
+        width: auto;
+    }
+    
+    .logo{
+
+        width: 12%;
+        }
 
     footer div{
         margin: 5px;
@@ -568,7 +637,8 @@ div.productos2{
         
     }
     header .copy-header p{
-        font-size: 20px;
+        font-size: 18px;
+        
     }
 
     .create-form{
@@ -582,3 +652,6 @@ div.productos2{
         width: 50%; 
 }
 }
+
+
+
