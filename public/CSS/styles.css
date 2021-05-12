@@ -105,18 +105,10 @@ header .form .submit{
 .logo{
     margin: 10PX;
     width: 12%;
-    animation: aumentar 1000ms linear 4 alternate;
+    
     
 }
 
-@keyframes aumentar{
-    0%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(1.1);
-    }
-}
 
 
 
